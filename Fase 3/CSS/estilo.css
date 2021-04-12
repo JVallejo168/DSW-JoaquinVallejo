@@ -1,0 +1,38 @@
+header{
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+}
+
+nav{
+    background-color:violet;
+    text-align:justify;
+    padding: 10px;
+    margin: 5px;
+}
+
+.contenedor{
+    display:grid;
+    grid-template-columns: 55% 45%;
+}
+
+section{
+    background-color: navajowhite;
+    height: 157px;
+    text-align:start;
+    margin: 5px;
+}
+
+aside{
+    background-color:turquoise;
+    padding: 10px;
+    margin: 5px;
+}
+
+footer{
+    background-color:darkseagreen;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
