@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box, CSS Grid</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<body>
+    
+</body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Diseño de Sitios Web: Flex Boxx, CSS Grid</h1>
+        <img src="img/Flexbox y CSS Grids.jpg" alt="Imagen del logo" height="125" width="370">
+    </header>
+
+
+        <!--Menú Horizontal--> 
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html"><h3>Inicio</h3></a></li>
+                <li><a href="#"><h3>Temas</h3></a>
+                    <ul class="dropdown">
+                        <li><a href="Tema1.html">Tema 1</a></li>
+                        <li><a href="Tema2.html">Tema 2</a></li>
+                    </ul>
+                    <li><a href="#"><h3>Recursos Digitales</h3></a>
+                        <ul class="dropdown">
+                            <li><a href="Audio1.html">Audio1</a></li>
+                            <li><a href="Audio2.html">Audio2</a></li>
+                        </ul>
+                
+                    <li> <a href="#"><h3>Aprendizaje</h3></a>
+                        <ul class="dropdown">
+                            <li><a href="#">prueba1</a></li>
+                            <li><a href="#">prueba2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="autor.html"><h3>Autor</h3></a></li>
+                </li>
+            </ul>
+        </nav>
+
+    
+    <!-- Seccion central -->
+
+    <div class="contenedor">
+        <aside>
+            <h4>Fan page</h4>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+            <!-- aquí quedó el contenido del audio 1 -->
+            <section>
+                <article class="justificado">
+                    <h3>INTRODUCCIÓN</h3>
+                    <br>
+                    <h3>Flexbox y CSS Grid</h3>
+                    <p>        
+                        Flexbox y CSS Grid son dos módulos de diseño CSS que se han convertido en la tendencia principal durante los últimos años.<br>
+                        Ambos nos permiten crear diseños complejos que antes sólo eran posibles mediante la aplicación de trucos con CSS y/o<br>
+                        JavaScript. Flexbox y CSS Grid comparten múltiples similitudes y se pueden resolver muchos diseños con ambos. Sin embargo,<br>
+                        cuándo usarlos, es otra pregunta.<br>
+                    </p>
+                </article>
+                <article class="centrado">
+                    <h3>Audio</h3>
+                    <audio controls>
+                        <source src="multimedia/Audio2.mp3" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </article>
+            </section>
+        
+    </div>
+    <!-- Pie de página -->
+    <footer>
+       <p> © Copyleft miOrganización.org | fecha de actualización: Abril 29 de 2021<br>
+           Diseño, código HTML5 y programación hecho a mano por nosotros usando herramientas de Software Libre.<br>
+       </p>
+    <footer>
+    
+</html>
+
+

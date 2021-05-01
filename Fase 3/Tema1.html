@@ -1,29 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flex Box, CSS Grid</title>
     <link rel="stylesheet" href="CSS/estilo.css">
 </head>
 <body>
+    
+</body>
+    <!-- Encabezado -->
     <header>
-        <h1 class="header">Flex Box</h1>
-        </header>
-        <section>
-    <h1>Diseño de caja flexible</h1>
+        <h1>Diseño de Sitios Web: Flex Boxx, CSS Grid</h1>
+        <img src="img/Flexbox y CSS Grids.jpg" alt="Imagen del logo" height="125" width="370">
+    </header>
 
-            <h2>Comúnmente conocido como Flexbox, es un modelo de diseño CSS3.<br>
-                La disposición del Flexbox permite que los elementos adptables dentro de un contenedor se organicen<br>
-                automáticamente dependiendo del tamaño de la pantalla o dispositivo<br>
-            </h2>
-         
-            
-                Uno de los rasgos mas definitorios de la disposición de Flexbox es su capacidad para adptarse al entorno, basada en su entorno de visualización. Las cajas flex pueden ajustarse en tamaño, ya <br>
-                sea disminuyendo, para evitar acaparar innecesariamente el espacio, o aumentando para dejar espacio para que el contenido se limite. La disposición de las cajas flexibles es menos restrictivas <br>
-                en cuanto al flujo de contenidos que las de los tipos de visualización en bloque y en línea, que suelen ser unidireccionales. <br>
-                 
-            </section>
+
+        <!--Menú Horizontal--> 
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html"><h3>Inicio</h3></a></li>
+                <li><a href="#"><h3>Temas</h3></a>
+                    <ul class="dropdown">
+                        <li><a href="Tema1.html">Tema 1</a></li>
+                        <li><a href="Tema2.html">Tema 2</a></li>
+                    </ul>
+                    <li><a href="#"><h3>Recursos Digitales</h3></a>
+                        <ul class="dropdown">
+                            <li><a href="recurso1.html">Audio1</a></li>
+                            <li><a href="recurso2.html">Audio2</a></li>
+                        </ul>
+                
+                    <li> <a href="#"><h3>Aprendizaje</h3></a>
+                        <ul class="dropdown">
+                            <li><a href="#">prueba1</a></li>
+                            <li><a href="#">prueba2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="autor.html"><h3>Autor</h3></a></li>
+                </li>
+            </ul>
+        </nav>
 
     
+    <!-- Seccion central -->
+
+    <div class="contenedor">
+        <aside>
+            <h4>Fan page</h4>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+        <section>
+            <!-- aquí quedó el contenido del tema 1 -->
+            <article>
+                <hr>
+                <h3>TEMA 1</h3>
+                <br>
+                <h3>Flexbox</h3>
+                <p>        
+                    Comúnmente conocido como Flexbox, es un modelo de diseño CSS3.<br>
+                    La disposición del Flexbox permite que los elementos adptables dentro de un contenedor se organicen automáticamente<br>
+                    dependiendo del tamaño de la pantalla o dispositivo.<br>
+                
+                    <br>
+                
+                    Uno de los rasgos mas definitorios de la disposición de Flexbox es su capacidad para adptarse al entorno, basada en<br>
+                    su entorno de visualización. Las cajas flex pueden ajustarse en tamaño, ya sea disminuyendo, para evitar acaparar<br>
+                    innecesariamente el espacio, o aumentando para dejar espacio para que el contenido se limite. La disposición de las<br>
+                    cajas flexibles es menos restrictivas en cuanto al flujo de contenidos que las de los tipos de visualización en<br>
+                    bloque y en línea, que suelen ser unidireccionales.<br>
+
+                    <img src="img/Flexbox.jpg" alt="Imagen del logo" height="325" width="170">
+                                        
+                </p>
+            </article>
+                
+        </section>
+        
+    </div>
+    <!-- Pie de página -->
+    <footer>
+       <p> © Copyleft miOrganización.org | fecha de actualización: Abril 29 de 2021<br>
+           Diseño, código HTML5 y programación hecho a mano por nosotros usando herramientas de Software Libre.<br>
+       </p>
+    <footer>
+    
+</html>
+
+

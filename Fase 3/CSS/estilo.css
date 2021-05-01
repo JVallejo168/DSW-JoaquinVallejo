@@ -1,38 +1,87 @@
+*{
+    margin: 5px;
+    border-radius: 3px;
+}   
 header{
-    background-color: lightskyblue;
-    text-align: center;
-    padding: 15px;
+    background-color:steelblue;
+    color:orange;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 3px;
     margin: 5px;
 }
 
-nav{
-    background-color:violet;
-    text-align:justify;
-    padding: 10px;
-    margin: 5px;
+
+.justificado{
+    text-align: justify;
 }
+.centrado{
+    text-align: center;
+}
+
+/*  sección de estilos para el menú*/
+
+.menu {
+    display: flex;
+}
+nav ul {
+    background-color:black;
+    text-align:center;
+    padding: 3px;
+    margin: 1px;
+    list-style: none;
+}
+
+.menu li {
+    width: 100%;
+    text-align: center;
+}
+
 
 .contenedor{
     display:grid;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 30% 70%;
 }
 
 section{
-    background-color: navajowhite;
-    height: 157px;
+    background-color:slategrey;
     text-align:start;
-    margin: 5px;
+    margin: 1px;
 }
 
 aside{
     background-color:turquoise;
-    padding: 10px;
-    margin: 5px;
+    padding: 5px;
+    margin: 1px;
 }
 
 footer{
-    background-color:darkseagreen;
+    background-color:steelblue;
     text-align: center;
-    padding: 10px;
     margin: 5px;
 }
+
+.menu a {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color:steelblue;
+    background:lightblue;
+    height:35px;
+    text-decoration: none;
+}
+
+
+.dropdown li {
+    display: none;
+}
+.menu li:hover .dropdown li {
+    display: block;
+}
+.menu a:hover {
+    background:chartreuse;
+    color: #fff;
+
+}
+

@@ -1,26 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flex Box, CSS Grid</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
 </head>
 <body>
-    <h1>Proyecto de Sitio WEB Periodo 2021-16-01</h1>
-    <p>
-       Mi nombre: Joaquin Vallejo Nieves
-    </p>
-       Programa: Ingeniería de Sistemas
-    <p>
-       Fecha de creación: 13 de febrero de 2021
-    </p>
-       Contacto: 3043897662
-      <p>
-         <a href="conceptos1.html">Conceptos1</a>
-         <hr>
-         <a href="Fase 2/design.html"> Actividad Fase2</a>
-
-      </p>
     
 </body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Diseño de Sitios Web: Flex Boxx, CSS Grid</h1>
+        <img src="img/Flexbox y CSS Grids.jpg" alt="Imagen del logo" height="125" width="370">
+    </header>
+
+
+        <!--Menú Horizontal--> 
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html"><h3>Inicio</h3></a></li>
+                <li><a href="#"><h3>Temas</h3></a>
+                    <ul class="dropdown">
+                        <li><a href="Tema1.html">Tema 1</a></li>
+                        <li><a href="Tema2.html">Tema 2</a></li>
+                    </ul>
+                    <li><a href="#"><h3>Recursos Digitales</h3></a>
+                        <ul class="dropdown">
+                            <li><a href="recurso1.html">Audio1</a></li>
+                            <li><a href="recurso2.html">Audio2</a></li>
+                        </ul>
+                
+                    <li> <a href="#"><h3>Aprendizaje</h3></a>
+                        <ul class="dropdown">
+                            <li><a href="#">prueba1</a></li>
+                            <li><a href="#">prueba2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="autor.html"><h3>Autor</h3></a></li>
+                </li>
+            </ul>
+        </nav>
+
+    
+    <!-- Seccion central -->
+
+    <div class="contenedor">
+        <aside>
+            <h4>Fan page</h4>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+        <section>
+            <!-- aquí debo cambiar en cada página con los contenidos -->
+            <article>
+                <hr>
+                <h3>INTRODUCCIÓN</h3>
+                <br>
+                <h3>Flexbox y CSS Grid</h3>
+                <p>        
+                    Flexbox y CSS Grid son dos módulos de diseño CSS que se han convertido en la tendencia principal durante los últimos años.<br>
+                    Ambos nos permiten crear diseños complejos que antes sólo eran posibles mediante la aplicación de trucos con CSS y/o<br>
+                    JavaScript. Flexbox y CSS Grid comparten múltiples similitudes y se pueden resolver muchos diseños con ambos. Sin embargo,<br>
+                    cuándo usarlos, es otra pregunta.<br>
+                </p>
+            </article>
+            <br>
+            <article>
+                <h3>Resumen de la industria</h3>
+                <p>
+                    El debate CSS Grid vs flexbox es actualmente el tema más candente en la comunidad CSS.<br>
+                    ¿Grid o Flexbox?, ¿Qué resulta más útil en diseño y maquetación web?<br>
+                    Flexbox y  Grid son dos  mecanismos de CSS que resultan especialmente útiles de cara a la  maquetación de páginas web.<br>
+                    Comparamos sus principales funcionalidades y, en un primer vistazo, tenemos que reconocer que Grid puede hacer cosas que<br>
+                    Flexbox no puede hacer y Flexbox puede hacer cosas que Grid no puede hacer. Con la ventaja de que ambos pueden trabajar<br>
+                    juntos: un elemento de Grid puede ser un contenedor Flexbox y un elemento de Flexbox puede ser un contenedor de Grid.<br>
+                </p>
+            </article>        
+            <br>
+            <hr>
+            <article>
+                <h3>PROPÓSITO</h3>
+                <p>        
+                    El proósito de ésta página es dar a conoccer en que consisten Flexbox y CSS Grid, sus ventajas y diferencias.<br>
+                </p>
+            </article>
+            <br>
+            <br>
+            <hr>
+            <hr>
+            <article>
+                <p>
+                    Si te gustó ésta página dale clic en el dedo arriba y deja tus comentarios mas abajo.<br>
+                    <img src="img/Dedo Arriba.jpg" alt="Me Gusta" height="45" width="50">             
+                    <textarea name="Flexbox y CSS Grid" id="" cols="110" rows="10"></textarea>
+                </p>
+            </article>
+                
+        </section>
+        
+    </div>
+    <!-- Pie de página -->
+    <footer>
+       <p> © Copyleft miOrganización.org | fecha de actualización: Abril 29 de 2021<br>
+           Diseño, código HTML5 y programación hecho a mano por nosotros usando herramientas de Software Libre.<br>
+       </p>
+    <footer>
+    
 </html>
